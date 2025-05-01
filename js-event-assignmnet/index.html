@@ -1,0 +1,62 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript and Dom Manipulation</title>
+</head>
+<body>
+    
+    <header>
+        <h1 class="heading">Welcome to JavaScript Event and DOM Manipulation</h1>
+    </header>
+    <main>
+        <div class="container flex-container">
+            <section class="event-handling-part">
+                <div class="plain-color" id="plain-color"></div>
+                <button id="plain-color-btn">Change Background</button>
+                <h2 id="hover-text">Hover to see a magic</h2>
+                <p id="default-message">Press an any key and receive a bleesing</p>
+                <p id="any-key-pressed"></p>
+                <button id="image-btn">Double click Me</button>
+                <img width="250px"  class="image" id="image" src="img-1.jpg" alt="">
+            </section>
+    
+            <section class="interactive-element">
+                <button id="reveal-btn" class="reveal-btn">Click once!</button>
+                <div class="image-wrapper">
+                    <img id="slideshow" src="img-3.jpg" alt="" width="300px">
+                    <button id="next-image-btn">Next</button>
+                </div>
+                <button id="toggle-tab" class="toggle-tab">Toggle Tab</button>
+                <div class="info" id="info">This was hidden initially for you! Happy Birthday 🎉🎂🥳🎈🎁🍰.... </div>
+                <div class="animation-box" id="animation-box">click the box</div>
+            </section>
+      
+        <section class="form-validation">
+            <div class="form-cont">
+                <form id="form" class="form">
+                    <label for="name">Name</label>
+                    <input type="text" name="text" id="name" placeholder="Enter name" required>
+                    <label id="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter email" required>
+                    <label id="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter password" minlength="8" maxlength="20" required>
+                    <button type="submit" id="submit-btn" class="submit-btn">Submit</button>
+                   
+                </form>
+                <p id="form-message"></p>
+            </div>
+           
+        </section>
+    </div>
+
+       
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>

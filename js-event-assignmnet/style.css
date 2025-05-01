@@ -1,0 +1,108 @@
+
+
+*, **::after, *::before {
+    box-sizing: border-box;
+}
+
+body{
+    background: #1b4965;
+    color: white;
+}
+
+
+.container{
+    width: 95%;
+    max-width: 1300px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+
+.heading{
+    text-align: center;
+}
+
+
+.event-handling-part{
+    margin-left: 10px;
+}
+
+.plain-color{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+
+.image{
+    display: none;
+    margin-top: 10px;
+}
+
+.reveal-btn{
+    margin-top: 20px;
+}
+
+.image-wrapper{
+    margin-top: 20px;
+}
+
+.info{
+    display: none;
+   
+}
+
+.toggle-tab{
+    margin-top: 40px;
+}
+
+.animation-box{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    transition: all 0.5s;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.form{
+    width: 80%;
+}
+
+input{
+    width: 100%;
+    outline: none;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.submit-btn{
+    padding: 5px 40px;
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+
+.submit-btn:hover{
+    background-color: rgba(223, 77, 121, 0.467);
+}
+
+
+
+@media(min-width: 480px){
+    .flex-container{
+        flex-direction: row;
+    }
+}
